@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Capçelera*/
+
+.header{
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+}
+.wrapper{
+    width: 1200px;
+    background-color: brown;
+    justify-content: space-between;
+
+}
+.header .wrapper h1{
+    order: 1;
+}
+.header .wrapper nav{
+    order: 2;
+    width: 40%;
+}
+.header .wrapper{
+
+    display: flex;
+    flex-direction: row;
+    
+
+}
+.header .wrapper nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+
+/*Moixos*/
+
+.content{
+    width: 100%;
+    background-color:burlywood;
+    display: flex;
+    justify-content: center;
+    
+}
+.content .wrapper{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.content .wrapper h1{
+    order: 1;
+    width: 50%;
+    
+}
+.content .wrapper form{
+    order: 2;
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+.content .wrapper ul.kittens{
+    order: 3;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+    padding-top: 25px;
+    
+}
+.content .wrapper ul.kittens li img{
+
+    border-radius: 5%;
+    border: solid 2px white;
+
+}
+.content .wrapper ul.kittens li footer{
+
+    text-align: center;
+}
+.footer{
+
+    
+}
+.footer .wrapper{
+
+}
